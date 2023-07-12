@@ -12,7 +12,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     // origin: "http://localhost:19006",
-    origin: "https://chat-room-pk18.herokuapp.com/",
+    origin: "https://chat-room-yzvz.onrender.com/",
   },
 });
 
